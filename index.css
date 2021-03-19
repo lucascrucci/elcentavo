@@ -1,0 +1,145 @@
+body{
+  background-color: #117A65;
+    font-family: "Cinzel", serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0 auto;
+}
+.container {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    opacity: 0.7;
+  }
+  .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo-nav-container img {
+    width: 90px;
+    height: 90px;
+  }
+  .logo {
+    letter-spacing: 15px;
+    font-size: 1.2em;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s linear;
+    border-radius: 5px;
+    font-family: "Cinzel", serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background: #FFE676;
+  }
+  .banner {
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+  }
+  .banner img {
+    width: 100%;
+    height: 700px;
+  }
+  .banner h1 {
+    line-height: 55px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+  }
+  .banner p{
+      text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+    position: absolute;
+    top: 46%;
+    left: 30%;
+  }
+  .container2{
+    background-color: #FFE676 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+  }
+  .texto1{
+    width: 40%;
+  }
+  .texto1 h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .texto1 p{
+    text-align: center;
+    font-size: 26px;
+  }
+  .texto2{
+    width: 40%;
+  }
+  .texto2 img{
+    width: 5%;
+    position: absolute;
+    left: 74%;
+    top: 77%;
+  }
+  .texto2 h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .texto2 p{
+    text-align: center;
+    font-size: 26px;
+  }
+  .footer{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    -webkit-box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
+
+  }
+  footer p {
+    margin: 0;
+    text-align: center;
+    padding: 4rem 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Cinzel", serif;
+  }
