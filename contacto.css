@@ -1,5 +1,5 @@
 body{
-  background-color: #117A65;
+    background-color: #117A65;
     font-family: "Cinzel", serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
@@ -56,6 +56,7 @@ body{
     transition: all 0.2s ease-in-out 0s;
   }
   .banner {
+      display: flex;
     width: 100%;
     -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
@@ -73,10 +74,10 @@ body{
     font-family: "Cinzel", serif;
     position: absolute;
     top: 15%;
-    left: 30%;
+    left: 42%;
   }
   .banner p{
-      text-align: center;
+    text-align: center;
     font-size: 25px;
     color: white;
     font-weight: bold;
@@ -86,7 +87,7 @@ body{
     left: 30%;
   }
   .container2{
-    background-color: #FFE676 ;
+    background-color: #6B9080 ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,52 +95,30 @@ body{
     -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
     box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
   }
-  .texto1{
-    width: 40%;
+  .container2 p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: "Cinzel", serif;
   }
-  .texto1 h2{
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .texto1 p{
-    text-align: center;
-    font-size: 26px;
-  }
-  .texto2{
-    width: 40%;
-  }
-  .texto2 img{
-    width: 5%;
-    position: absolute;
-    left: 74%;
-    top: 77%;
-  }
-  .texto2 h2{
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .texto2 p{
-    text-align: center;
-    font-size: 26px;
-  }
-  .footer{
+  footer {
     width: 100%;
     background-color: white;
     text-align: center;
     -webkit-box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 30px 100px 1px rgba(0, 0, 0, 0.75);
-
-  }
-  footer p {
-    margin: 0;
-    text-align: center;
-    padding: 4rem 2rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    font-family: "Cinzel", serif;
-  }
+    }
+    footer p {
+      margin: 0;
+      text-align: center;
+      padding: 4rem 2rem;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 22px;
+      font-family: "Cinzel", serif;
+    }
