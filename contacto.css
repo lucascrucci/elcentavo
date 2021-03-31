@@ -74,7 +74,7 @@ body{
     font-family: "Cinzel", serif;
     position: absolute;
     top: 15%;
-    left: 42%;
+    left: 41%;
   }
   .banner p{
     text-align: center;
@@ -87,7 +87,7 @@ body{
     left: 30%;
   }
   .container2{
-    background-color: #6B9080 ;
+    background-color: #FFE676;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ body{
       font-weight: bold;
       font-family: "Cinzel", serif;
   }
-  footer {
+  .footer {
     width: 100%;
     background-color: white;
     text-align: center;
@@ -121,4 +121,40 @@ body{
       font-weight: bold;
       font-size: 22px;
       font-family: "Cinzel", serif;
+    }
+    
+    @media(min-width: 1301px) and (max-width: 1500px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 16%;
+        text-align: center;
+    }
+  }
+
+    @media(min-width: 1024px) and (max-width: 1300px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 16%;
+        text-align: center;
+      }
+    }
+    
+    @media(min-width: 600px) and (max-width: 1023px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 18%;
+        text-align: center;
+      }
+    }
+
+    @media(max-width: 599px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 18%;
+        text-align: center;
+      }
     }

@@ -74,7 +74,7 @@ body{
     font-family: "Cinzel", serif;
     position: absolute;
     top: 15%;
-    left: 37%;
+    left: 35%;
   }
   .banner p{
     text-align: center;
@@ -86,29 +86,40 @@ body{
     top: 46%;
     left: 28%;
   }
-  .container2{
+  .carrousel1{
+    background-color: white;
     overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
   }
-.container2 img{
-    margin-left: 30%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 40%;
-    height: auto;
-    max-height: 950px;
-    display: block;
-    border: 2px solid black;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
-    box-shadow: 0px 0px 30px 2px rgba(0,0,0,1);
+  .carrousel1::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .carrousel1::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 6px;
+  }
+  .carrousel2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .carrousel2::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .carrousel2::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 6px;
+  }
 
-}
-.container2 img:hover{
-  -webkit-transform:scale(1.0);transform:scale(1.2);
-}
-
-  footer {
+  .footer {
     width: 100%;
     background-color: white;
     text-align: center;
@@ -125,4 +136,40 @@ body{
       font-weight: bold;
       font-size: 22px;
       font-family: "Cinzel", serif;
+    }
+
+    @media(min-width: 1301px) and (max-width: 1500px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 16%;
+        text-align: center;
+    }
+  }
+
+    @media(min-width: 1024px) and (max-width: 1300px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 16%;
+        text-align: center;
+      }
+    }
+    
+    @media(min-width: 600px) and (max-width: 1023px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 18%;
+        text-align: center;
+      }
+    }
+
+    @media(max-width: 599px){
+      .banner h1{
+        width: 70%;
+        font-size: 50px;
+        left: 18%;
+        text-align: center;
+      }
     }
