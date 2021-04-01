@@ -145,7 +145,7 @@ body{
     font-family: "Cinzel", serif;
   }
 
-  @media(min-width: 1301px) and (max-width: 1500px){
+  @media(min-width: 1301px) and (max-width: 1600px){
     .banner h1{
       width: 70%;
       font-size: 50px;
@@ -153,7 +153,7 @@ body{
       text-align: center;
     }
     .banner p{
-      left: 25%;
+      left: 26%;
     }
   }  
   @media(min-width: 1024px) and (max-width: 1300px){
