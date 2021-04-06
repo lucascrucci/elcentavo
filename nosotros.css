@@ -98,6 +98,8 @@ body{
   .container2 p{
     margin-top: 10%;
     margin-bottom: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
       text-align: center;
       line-height: 40px;
       font-size: 25px;

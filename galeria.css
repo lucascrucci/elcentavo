@@ -141,7 +141,6 @@ body{
     @media(min-width: 1301px) and (max-width: 1600px){
       .banner h1{
         width: 70%;
-        font-size: 50px;
         left: 16%;
         text-align: center;
     }
