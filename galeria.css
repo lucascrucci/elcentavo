@@ -86,38 +86,6 @@ body{
     top: 46%;
     left: 28%;
   }
-  .carrousel1{
-    background-color: white;
-    overflow: hidden;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-  }
-  .carrousel1::-webkit-scrollbar {
-    height: 10px;
-  }
-  
-  .carrousel1::-webkit-scrollbar-thumb {
-    background-color: black;
-    border-radius: 6px;
-  }
-  .carrousel2{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: white;
-    overflow: hidden;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-  }
-  .carrousel2::-webkit-scrollbar {
-    height: 10px;
-  }
-  
-  .carrousel2::-webkit-scrollbar-thumb {
-    background-color: black;
-    border-radius: 6px;
-  }
 
   .footer {
     width: 100%;
